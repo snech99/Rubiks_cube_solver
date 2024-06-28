@@ -1,6 +1,9 @@
 # Rubik´s Cube Solver
 This work was created as part of a project in my degree course in mechatronics. This code was compiled as a DLL and integrated into a LabView file. The executing robot is a self-built robot based on LEGO and the EV3 Brick.
+The project was a group project that I completed together with a fellow student from my degree program.
 
+
+At the beginning we have a Depth First Search (DFS) to solve any side of the cube. Subsequently, the cube is solved with normal algorithms, as they can be found everywhere on the internet.
 
 
 Some example cubes are available. These can be used to determine the required input for solving the cube. 
