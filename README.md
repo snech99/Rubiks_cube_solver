@@ -8,5 +8,3 @@ It is important to read the cube according to a certain pattern.
 The order of the sides does not matter, but the order of the bricks on each side is important.
 The cube is held with the red side facing forward and the yellow side facing up. Below is a picture showing the order in which the bricks are to be read for each side.
 
-
-![alt text](https://github.com/snech99/Rubiks_cube_solver/blob/main/cube.png?raw=true)
