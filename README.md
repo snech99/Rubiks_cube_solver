@@ -5,6 +5,9 @@ The project was a group project that I completed together with a fellow student 
 
 At the beginning we have a Depth First Search (DFS) to solve any side of the cube. Subsequently, the cube is solved with normal algorithms, as they can be found everywhere on the internet.
 
+## Update
+New faster solver without DFS added.
+This solver finds the solution a lot faster (Algorithm: "like a human").
 
 Some example cubes are available. These can be used to determine the required input for solving the cube. 
 It is important to read the cube according to a certain pattern.
