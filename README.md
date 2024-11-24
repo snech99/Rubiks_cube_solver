@@ -1,5 +1,5 @@
 # Rubik´s Cube Solver
-This work was created as part of a project in my mechatronics course at Wismar University of Applied Sciences. This code was compiled as a DLL and integrated into a LabView file. The executing robot is a self-built robot based on LEGO and the EV3 Brick.
+This work was created as part of a project in my mechatronics course at Hochschule Wismar, University of Applied Sciences: Technology, Business and Design. This code was compiled as a DLL and integrated into a LabView file. The executing robot is a self-built robot based on LEGO and the EV3 Brick.
 The project was a group project that I completed together with a fellow student from my degree program.
 
 
