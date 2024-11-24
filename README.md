@@ -5,9 +5,6 @@ The project was a group project that I completed together with a fellow student 
 
 At the beginning we have a Depth First Search (DFS) to solve any side of the cube. Subsequently, the cube is solved with normal algorithms, as they can be found everywhere on the internet.
 
-## Update
-New faster solver without DFS added.
-This solver finds the solution a lot faster (Algorithm: "like a human").
 
 Some example cubes are available. These can be used to determine the required input for solving the cube. 
 It is important to read the cube according to a certain pattern.
@@ -29,3 +26,9 @@ The output is a sequence of turns that must be performed to solve the cube (make
 | green| 4     |   10  |
 | orange | 5     | 11   |
 | blue| 6   |   12  |
+
+## Update
+New faster solver without DFS added.
+
+
+This solver finds the solution a lot faster. The used Algorithm is the same a human would use to solve a Rubik's Cube.
