@@ -59,6 +59,7 @@ class Game
 	void find_white_edge_down();
 	void move_white_edge_down(color);
 	void middle_white_edge_up();
+	void down_white_edge_up();
 	void white_edge_up_right(color);
 	void white_edge_up_left(color);
 	int next_pos(int);
@@ -88,8 +89,9 @@ class Game
 	void fisch_right();
 	void align_yellow_cross();
 	void rotate_Kantensteine(color );
-	void align_rainbow_middle();
 	void L_move(color);
+	void align_rainbow_middle();
+	bool middle_rainbow_done();
 	void finish_cube();
 
 	int Test_cube_success(Game);

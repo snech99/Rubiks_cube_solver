@@ -432,6 +432,11 @@ void Game::align_rainbow_middle()
     color stone_front = get_color(red, 2);
     color stone_back  = get_color(orange, 2);
 
+    if(middle_rainbow_done())
+    {
+        return;
+    }
+
     switch (stone_back)
     {
         case blue:  stone_back = green; 
@@ -504,7 +509,23 @@ void Game::align_rainbow_middle()
         }
     }
     rotate_Kantensteine(mid);
-}  
+} 
+
+//Checks for DONE
+bool Game::middle_rainbow_done()
+{
+    color mid = red;
+
+    for(int i=3; i<7; i++)
+    {
+        mid = (color) i;
+        if(!check_stone(mid, 2))
+        {
+            return false;
+        }
+    }
+    return true;
+}
 
 //last algorithm until the cube is solved
 void Game::finish_cube()

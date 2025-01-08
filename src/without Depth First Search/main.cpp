@@ -19,7 +19,7 @@ int main ()
 	set_bsp_01(); //white already solved
 	set_bsp_02();
 	set_bsp_03();
-	set_bsp_04();
+    set_bsp_04();
 
 	//solving function
 	int erg = do_magic(bsp_cube_02, ptr_array_final);

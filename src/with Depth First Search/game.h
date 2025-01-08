@@ -96,8 +96,9 @@ class Game
 	void fisch_right();
 	void align_yellow_cross();
 	void rotate_Kantensteine(color );
-	void align_rainbow_middle();
 	void L_move(color);
+	void align_rainbow_middle();
+	bool middle_rainbow_done();
 	void finish_cube();
 
 	//Convert move_array back to normal cube

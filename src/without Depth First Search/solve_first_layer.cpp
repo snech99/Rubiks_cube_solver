@@ -22,6 +22,7 @@ void Game::solve_first_layer_cross()
 		find_white_edge_up();
 		find_white_edge_down();
 		middle_white_edge_up();
+		down_white_edge_up();
 	}
 
 	if(check_white_cross() == 1)
@@ -36,6 +37,8 @@ void Game::solve_first_layer_cross()
 		move_Gamecube(6);
 
 		find_white_edge_up();
+		printf("end\n");
+
 	}
 }
 
@@ -391,6 +394,41 @@ void Game::middle_white_edge_up()
 			white_edge_up_right(side);
 		}
 
+		side = next_side_circle(side);
+		count++;
+	}
+}
+
+void Game::down_white_edge_up()
+{
+	color side = red;
+	int count = 0;
+	bool hit_flag = true;
+
+	while(hit_flag && (count < 4))
+	{
+		if(get_color(side, 8) == white)
+		{
+			hit_flag = false;
+			switch(side)
+			{
+				case red: 	move_Gamecube(3);
+							move_Gamecube(3);
+							break;
+
+				case green: move_Gamecube(4);
+							move_Gamecube(4);
+							break;
+
+				case orange:move_Gamecube(5);
+							move_Gamecube(5);
+							break;
+
+				case blue: 	move_Gamecube(6);
+							move_Gamecube(6);
+							break;
+			}
+		}
 		side = next_side_circle(side);
 		count++;
 	}
